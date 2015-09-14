@@ -13,38 +13,47 @@
   * @license	GPL, or GNU General Public License, version 3
   */
 
+
+
+
 /**
   * This interface defines First Name and Last Name functions.
   */
 interface nameInterface {
+
 /**
   * Defining First name function. 
   */
-	public function fname();
+  public function fname();
+
 /**
   * Defining Last name function.
   */
-	public function lname();
+  public function lname();
 }
+
 
 /**
   * This interface defines email functions.
   */
 interface emailInterface {
+
 /**
   * Defining email function.
   */
-	public function email();
+  public function email();
 }
+
 
 /**
   * This interface defines Phone number functions.
   */
-interface phone {
+interface phoneInterface {
+
 /**
   * Defining phone function.
   */
-	public function phone();
+  public function phone();
 }
 
 
